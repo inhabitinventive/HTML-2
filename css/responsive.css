@@ -1,0 +1,98 @@
+
+@media screen and (max-width:1200px) { 
+    .topheader .container{
+        width: 95%;
+        max-width: 95%;
+    }
+}
+@media screen and (max-width: 991px) { 
+    .topheader .login-nav {
+        width: 120px;
+    }
+    .navbar-leafy ul li {
+        padding: 0 0 0 12px;
+    }
+    .navbar-leafy ul li a{
+        font-weight: 100;
+        font-size: 12px;
+    }
+    .absoluteimg-prof{
+        position: relative;
+        bottom: -50px;
+        left: 0;
+        right: 0;
+        display: block;
+        margin: auto;
+        width: 95%;
+        height: auto;
+    }
+    .contactinfoform .bannerform{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-bottom: 60px;
+        bottom:0px;
+    }
+    .mapareacontact iframe{
+        height: 350px;
+    }
+}
+@media screen and (max-width:768px) { 
+    .searchdekstop{display: none !important;}
+    .searchmobile{display: block !important;}
+
+    .calltopbtn {
+        position: relative;
+        right: 50px;
+    }
+    .topinfolayer {
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    .topinfo-l{display: none;}
+    .bannertext h3{
+        font-size: 25px;  
+    } 
+    .copyright-main p{text-align: center;} 
+    .navbar-leafy{
+        z-index: 999;
+        position: fixed;
+        top: 0;
+        left: -150%;
+        bottom: 0;
+        width: 200px;
+        height: 100vh;
+        background: #343434;
+        transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        padding-top: 100px;
+    }
+    .navbar-leafy.openmenu{
+        left: 0 !important;
+    }
+    .navbar-leafy{
+        text-align: left;
+    }
+    .navbar-leafy ul li {
+        display: block;
+        padding: 0 0 20px 30px;
+    }
+     .navbar-leafy ul li a{
+        color:#fff;
+    }
+    .menu-openmobile { 
+        position: fixed;
+        right: 37px;
+        color: #fff;
+        z-index: 9999;
+        display: block;
+        font-size: 22px;
+    }
+} 
+@media screen and (max-width:575.87px) {   
+    .bannertext h3{
+        font-size:19px !important;
+    } 
+}

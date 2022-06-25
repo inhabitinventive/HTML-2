@@ -1,0 +1,192 @@
+@media screen and (max-width:575.87px) {
+    .allpdtdet{
+        padding-left: 15px;
+    }
+    .certificatenav.nav-tabs li a{
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+     .bannertext h3{
+        font-size:15px !important;
+    }
+    .home-banner img{
+        height: 170px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .tagabsolute { 
+        max-width: 270px;
+    }
+    .topsocial-media-icon a {
+        color: #fff;
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .goal-bg {
+        background-size: 1400px 100%;
+    }
+        .copyright-subtext img {
+        width: 280px;
+        margin: 6px 0;
+        float: right;
+        display: block;
+        min-width: auto;
+        max-width: 280px;
+    }
+    svg#wrapper{ 
+        width:auto;
+        margin: 100px;
+    }
+     .circle {
+        position: absolute;
+        width: 120px;
+        height:auto;
+        top: 50%;
+        left: 50%;
+        margin: -50px 0 0 -20%;
+        background: none;
+        backface-visibility: hidden;
+        visibility:hidden;
+        z-index:2;
+    } 
+     .circle table {
+       font-size: 12px;
+    } 
+    .circle table td,.circle table th {
+        padding: 6px;
+    }
+    .fingerslide-mob{
+        display:block; 
+        position: fixed;
+        z-index: 999;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background:rgb(0 0 0 / 78%);
+    }
+    .fingerslide-mob img{
+        position: absolute;
+        top: 40%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 210px;
+    }
+
+}
+@media screen and (max-width:768px) {
+    .geolocation-map iframe { 
+        height: 400px;
+    }
+    .home-banner {
+        margin-top: -76px;
+    }
+    .bannertext h3{
+        font-size: 25px;  
+    }
+    body {
+        padding-top: 102px;
+    }
+    .copyright-subtext img {
+        width: 280px;
+        margin: 6px auto;
+        float: none;
+        display: block;
+        min-width: auto;
+        max-width: 280px;
+    }
+    .copyright-main p{text-align: center;}
+    .topheader .login-nav {
+        width: 160px;
+        float: none;
+        margin: auto;
+        display: block;
+        height: 50px;
+        padding: 7px 0;
+    }
+    .navbar-leafy{
+        z-index: 999;
+        position: fixed;
+        top: 0;
+        left:-150%;
+        bottom: 0;
+        width: 200px;
+        height: 100vh;
+        box-shadow: 0 0 5px #235071;
+        -webkit-box-shadow: 0 0 5px #235071;
+        background: linear-gradient(90deg, rgba(0, 0, 0, 1) 8%, rgba(9, 35, 54, 1) 51%);    
+        transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+    }
+    .navbar-leafy.openmenu{
+        left: 0 !important;
+    }
+    .navbar-leafy{
+        text-align: left;
+    }
+    .navbar-leafy ul li {
+        display: block;
+        padding: 0 0 20px 30px;
+    }
+    .navbar-leafy ul li a{
+        color:#fff;
+    }
+    .menu-openmobile {
+        position: fixed;
+        /*top: 23px;
+        right: 23px;
+        color: #fff;*/
+        top: 56px;
+        right: 23px;
+        color: #000;
+        z-index: 998;
+        display: block;
+        font-size: 22px;
+    }
+    .dashboard-menu-main{
+        margin-bottom: 20px;
+        padding-left:15px !important;
+        padding-right:15px !important;
+    }
+    .dashboard-menu-main ul li { 
+        margin: 2px;
+        display: block;
+    }
+    .dashboard-menu-main ul li a { 
+        border-radius: 5px;
+        padding: 2px 8px; 
+    }
+    .ul-info-area ul li {
+        padding: 0 0 0 110px; 
+    }
+    .ul-info-area ul li strong {
+        width: 110px;
+    }
+    .ul-info-area ul li.reg-btn-group {
+        padding: 0 0 0 110px;
+        flex-wrap: wrap;
+    }
+    .ul-info-area ul li.reg-btn-group .btn-green{
+        margin-left: 0px;
+    }
+    .tab-content-outer .nav-tabs li a { 
+        padding: 8px 5px; 
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .tab-content-outer .nav-tabs li  { 
+        margin-right: 1px;
+    }
+    .searchdekstop{display: none !important;}
+    .searchmobile{display: block !important;}
+    .ul-info-area ul li.reg-btn-group {
+        min-height: 90px;
+    }
+} 
